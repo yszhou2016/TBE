@@ -13,8 +13,8 @@ $line=<AA>;
 while($line=<AA>)
 {    chomp $line; 
      @bb=split/\s+/,$line;
-     $tt=substr($bb[2],6,6);  
-     $temp="$tt-$tt";   
+     $tt1=substr($bb[1],6,6);  $tt2=substr($bb[2],6,6);  
+     $temp="$tt1-$tt2";  
      $s1="FA$i";  $s2="FB$i";
      $h1{$temp}=$s1;  $h2{$temp}=$s2;
      $f1{$temp}="$bb[0].R1.fastq";  $f2{$temp}="$bb[0].R2.fastq";
