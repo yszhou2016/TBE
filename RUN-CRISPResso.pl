@@ -32,7 +32,7 @@ while($line=<AA>)
 {   $line2=<AA>;  $line3=<AA>;   $line4=<AA>;
     $lin=<BB>;  $lin2=<BB>; $lin3=<BB>;  $lin4=<BB>;
     $s1=substr($line2,6,6);
-    $s2=substr($line2,6,6);
+    $s2=substr($lin2,6,6);
      chomp $line2;  chomp $line4;  chomp  $lin2;  chomp $lin4;
      $line2b=substr($line2,20,130);    $line4b=substr($line4,20,130);  
      $lin2b=substr($lin2,20,130);    $lin4b=substr($lin4,20,130);  
